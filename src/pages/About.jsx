@@ -1,16 +1,10 @@
 import { useState } from "react";
-import "./App.css";
+import "../App.css";
 
-function About() {
-  const [count, setCount] = useState(0);
-
+export default function About() {
   return (
     <>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <p>hello about page</p>
     </>
   );
 }
-
-export default About;

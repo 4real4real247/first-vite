@@ -1,16 +1,10 @@
 import { useState } from "react";
-import "./App.css";
+import "../App.css";
 
-function Home() {
-  const [count, setCount] = useState(0);
-
+export default function Home() {
   return (
     <>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <p>hello Home page</p>
     </>
   );
 }
-
-export default Home;
